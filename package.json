@@ -1,0 +1,22 @@
+{
+  "name": "Promises",
+  "version": "0.0.0",
+  "description": "",
+  "main": "callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorVieira/Promises.git"
+  },
+  "author": "Igor Vieira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorVieira/Promises/issues"
+  },
+  "homepage": "https://github.com/IgorVieira/Promises",
+  "dependencies": {
+    "promise": "^7.0.4"
+  }
+}
