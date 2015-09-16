@@ -10,3 +10,4 @@ nodejs promises.js
 
 ```
 ##Find Captain America!!
+#Slides http://slides.com/igorvieira/promises
