@@ -1,7 +1,7 @@
 
-var Promise = require("bluebird");
+var bluebird = require("bluebird");
 var fs = require("fs");
-Promise.promisifyAll(fs);
+bluebird.promisifyAll(fs);
 var StringDecoder = require('string_decoder').StringDecoder;
 var decoder = new StringDecoder('utf8');
 
@@ -12,10 +12,11 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Name agent:", function(name) {
+rl.question("Search:", function(name) {
 	
+	var Promise = fs.readFileAsync(name);
 
-	fs.readFileAsync(name).then(function(data) {
+	Promise.then(function(data) {
 	    console.log(decoder.write(data));  
 	})
 	.catch(SyntaxError, function(e) {
