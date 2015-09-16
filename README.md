@@ -1,6 +1,6 @@
 # Promises
 
-![first class](https://github.com/IgorVieira/FirstClass-GlobalRHSolutions/blob/master/image/captain.jpg)
+![captain](https://github.com/IgorVieira/Promises/blob/master/image/captain.jpg)
 ```
 git clone git@github.com:IgorVieira/Promises.git
 
