@@ -16,7 +16,8 @@ rl.question("Search:", function(name) {
 	
 	var Promise = fs.readFileAsync(name);
 
-	Promise.then(function(data) {
+	Promise
+        .then(function(data) {
 	    console.log(decoder.write(data));  
 	})
 	.catch(SyntaxError, function(e) {

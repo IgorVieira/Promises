@@ -12,11 +12,13 @@ var rl = readline.createInterface({
 rl.question("Name agent:", function(name) {
 
 	fs.readFile(name, function (err, data) {
-	  if (err){
-	 	console.log('You don´t read that!');
-	  }else{
-		console.log(decoder.write(data));  	
-	  }
+	  if (err) return console.log('You don´t read that!');
+	  try{
+		console.log(decoder.write(data));
+	  }catch(e){
+	   console.log(e);
+	 }; 
+	  
 	});
 
   rl.close();
