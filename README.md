@@ -1,6 +1,6 @@
 # Promises
 
-
+![first class](https://github.com/IgorVieira/FirstClass-GlobalRHSolutions/blob/master/image/captain.jpg)
 ```
 git clone git@github.com:IgorVieira/Promises.git
 
@@ -10,4 +10,4 @@ nodejs promises.js
 
 ```
 ##Find Captain America!!
-#Slides http://slides.com/igorvieira/promises
+###Slides http://slides.com/igorvieira/promises
